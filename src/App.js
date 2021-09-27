@@ -10,9 +10,8 @@ import Skills from './Components/Skills';
 function App() {
   const [currentPage, setCurrentPage] = useState('Home');
   const renderPage = () => {
-    switch(currentPage) {
+    switch (currentPage) {
       case 'Contact': return <Contact />
-      case 'Home': return <Home />
       case 'Portfolio': return <Portfolio />
       case 'Resume': return <Resume />
       case 'Skills': return <Skills />
@@ -22,7 +21,7 @@ function App() {
 
   useEffect(() => {
     document.title = (currentPage === 'Home' ? `M. Travis Russell` : `M. Travis Russell — ${currentPage}`);
- }, [currentPage]);
+  }, [currentPage]);
 
   return (
     <div class="md:container md:mx-auto">
