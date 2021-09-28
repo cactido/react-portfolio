@@ -4,9 +4,11 @@ const Contact = () => {
     return (
         <div className="text-gray-100">
             <div className="px-4 py-4 static">
-                <div className="lg:w-128 w-full lg:p-5">
+                <div className="xl:w-8/12 w-full lg:p-5">
                     <p className="text-3xl">Contact Me</p>
-                    <p className="text-base mx-2">Ut eget libero tincidunt, consequat metus eu, vulputate purus. Vestibulum scelerisque ornare tempor. </p>
+                    <p className="text-base mx-2">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla bibendum viverra nisi, eget ullamcorper diam tincidunt et. Phasellus blandit eleifend dolor id feugiat. Vestibulum erat nisi, laoreet a malesuada ac, condimentum at est. Morbi turpis nulla, lobortis in nunc id, hendrerit tempus libero. Nulla sit amet odio at urna tempus aliquam. Vivamus tincidunt sodales mi, non tempus quam iaculis quis. Suspendisse sed sem quis quam tincidunt imperdiet. Duis nec dignissim purus. Nulla urna ante, condimentum eu est at, congue rhoncus eros. Maecenas dignissim ante et arcu aliquam pharetra. Sed tempus sed dolor gravida sodales. 
+                    </p>
                 </div>
                 <div className="xl:absolute top-20 right-20 w-96 p-5 mt-5 mx-auto rounded-md bg-bluegray-600">
                     <form>
